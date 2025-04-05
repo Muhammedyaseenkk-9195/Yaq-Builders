@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Redirect to WhatsApp after email is sent
             let whatsappMsg = `Hello, my name is ${name}. My email is ${email} and phone number is ${phone}. Message: ${message}`;
-            let whatsappLink = `https://wa.me/919072506926?text=${encodeURIComponent(whatsappMsg)}`; // Replace with your WhatsApp number
+            let whatsappLink = `https://wa.me/91 85903 47262?text=${encodeURIComponent(whatsappMsg)}`; // Replace with your WhatsApp number
             window.open(whatsappLink, "_blank");
         }, function (error) {
             document.querySelector(".loading").style.display = "none";
